@@ -11,7 +11,7 @@ body {
 }
 
 aside.side-splash {
-  background-image: url('/assets/sidesplash.png');
+  background-image: url('assets/sidesplash.png');
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
