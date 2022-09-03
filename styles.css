@@ -53,7 +53,7 @@ h2 {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   padding: 10px;
   display: flex;
@@ -79,5 +79,23 @@ footer img {
 
   footer img {
     opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    flex-direction: column;
+  }
+
+  aside.side-splash {
+    width: auto;
+    margin-right: 10px;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  main {
+    min-height: 100vh;
+    text-align: center;
   }
 }
