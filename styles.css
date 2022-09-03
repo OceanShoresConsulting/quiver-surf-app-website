@@ -76,4 +76,8 @@ footer img {
   aside.side-splash img {
     filter: invert();
   }
+
+  footer img {
+    opacity: 0.5;
+  }
 }
