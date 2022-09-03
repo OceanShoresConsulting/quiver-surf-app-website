@@ -38,6 +38,7 @@ main {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 20px;
 }
 
 h1 {
@@ -63,4 +64,16 @@ footer {
 
 footer img {
   margin: 16px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background: #0f1011;
+    color: #FFF;
+  }
+
+  aside.side-splash img {
+    filter: invert();
+  }
 }
